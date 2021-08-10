@@ -30,6 +30,7 @@ public class MainPage {
         webdriver.findElement(INPUT_FIELD).sendKeys("25874");
     }
     public void clickOnButton(){
+
         webdriver.findElement(INPUT_BUTTON).click();
     }
     public void alertBox(){

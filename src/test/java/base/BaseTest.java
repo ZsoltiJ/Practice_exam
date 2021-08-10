@@ -13,14 +13,6 @@ public class BaseTest {
 
     protected WebDriver webdriver;
 
-    public BaseTest(WebDriver webdriver) {
-        this.webdriver = webdriver;
-
-    }
-
-    public WebDriver getDriver() {
-        return webdriver;
-    }
 
 
     @BeforeEach
